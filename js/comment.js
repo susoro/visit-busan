@@ -15,4 +15,12 @@ $(document).ready(function () {
         auto: true
     });
 
+    $(".banner-icon").bxSlider({
+        auto: true,
+        pager: false,
+        slideWidth: 180,
+        maxSlides: 6,
+        moveSlides: 1,
+        speed: 400
+    });
 });
