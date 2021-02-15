@@ -23,4 +23,11 @@ $(document).ready(function () {
         moveSlides: 1,
         speed: 400
     });
+    $('.bx-prev').on('click', function () {
+        mySlider.goToPrevSlide();
+        return false;
+    });
+    $('.bx-next').on('click', function () {
+        mySlider.goToNextSlide();
+    });
 });
