@@ -1,5 +1,21 @@
 $(document).ready(function () {
+        // 맨위로가기 버튼
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $("#gotop").fadeIn();
+            } else {
+                $("#gotop").fadeOut();
+            }
+        });
+    
+        $("#gotop").click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+            return false;
+        });
 
+        
     // 상단메뉴
     $(".dp2,.dp2-bg").hide();
 
@@ -15,6 +31,7 @@ $(document).ready(function () {
         auto: true
     });
 
+    // 관공서슬라이드
     $(".banner-icon").bxSlider({
         auto: true,
         pager: false,
@@ -22,12 +39,5 @@ $(document).ready(function () {
         maxSlides: 6,
         moveSlides: 1,
         speed: 400
-    });
-    $('.bx-prev').on('click', function () {
-        mySlider.goToPrevSlide();
-        return false;
-    });
-    $('.bx-next').on('click', function () {
-        mySlider.goToNextSlide();
     });
 });

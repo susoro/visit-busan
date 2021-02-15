@@ -184,10 +184,9 @@ background: url('../images/main/Untact3.png')no-repeat top;}
 #footer ul .banner-icon li {transition:all 0.5s; }
 #footer ul .banner-icon li:hover { opacity:0.7; }
 #footer ul .banner-icon{width:1200px; justify-content:center;}
-#footer-banner .bx-prev {left: 100px; background: url('../images/common/minibtn-01.png')no-repeat; height: 30px;}
-#footer-banner .bx-next {right:100px; background: url('../images/common/minibtn02.png')no-repeat;}
 
-
+.banner-icon .bx-prev {position:absolute; left:100px; background: url('../images/common/minibtn-01.png')no-repeat; height: 30px;}
+.banner-icon .bx-next {right:100px; background: url('../images/common/minibtn02.png')no-repeat;}
 
 .footer-menu{width: 1100px; margin: 0 auto; margin-bottom: 130px; padding-bottom: 20px;}
 .footer-menu .footer-dp{margin-top: 30px;}
@@ -198,12 +197,15 @@ background: url('../images/main/Untact3.png')no-repeat top;}
 .sns-footer .sns{display: flex; justify-content: end;}
 .sns li{width:40%; padding-left:40px;align-self: center;}
 .footer-bg{background: url('../images/common/footer-bg.png')no-repeat center center;  height:384px; margin-top:-350px; align-items:center;}
-
-
 .info-wrap{width:1100px; margin: 0 auto; margin-top:-70px ;}
 .info-wrap .desc{display: flex;}
 .info-wrap .desc li:nth-child(1){padding-right: 40px;}
 .info-wrap .desc li{ padding-right: 10px;align-self: center;}
 .info-wrap .desc li a{color:#fff;}
 .info-wrap p{padding-left: 116px; color:#fff;}
+
+/* footer 종료 */
+
+/* etc */
+#gotop { display:none; position:fixed; right:70px; bottom:190px; }
 
