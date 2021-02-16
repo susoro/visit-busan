@@ -34,16 +34,16 @@ body { font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:1
 #header h1 img{padding-top: 40px;}
 #header .header-inner{position: relative;}
 #header ul.util{display: flex; justify-content:flex-end; position: absolute;top: 40px; right:0;}
-#header ul.util li a{padding-right: 15px; color:#005CA3; font-size:15px;}
-#header ul.util li:nth-child(2){border-left: 1px solid #005CA3; padding-left: 15px;}
-#header ul.gnb{z-index:9999; display: flex; position: absolute; top: 78px; right: 188px;color: #333;}
-#header ul.gnb>li{padding-top: 10px; padding-left: 88px;}
+#header ul.util li a{padding:0 15px; color:#005CA3; font-size:15px;}
+#header ul.util li:nth-child(2){border-left: 1px solid #005CA3; padding: left 10px;}
+#header ul.gnb{z-index:9999; display: flex; position: absolute; top: 78px; right: 10px;color: #333; width: 900px;}
+#header ul.gnb>li{padding-top: 10px; width:calc(100%/5);}
 #header ul.gnb>li>a{font-size: 20px; font-weight: bold; transition: 0.5s;}
 #header ul.gnb li a:hover{color:#005CA3; border-bottom: 1px solid #005CA3;}
 #header .dp2{padding-top: 25px; height:150px; box-sizing: border-box; transition:background 0.5s;}
 #header .dp2 li{padding: 5px 0;}
 #header .dp2 li a{text-transform:capitalize; font-size: 15px;transition: 0.3s;}
-#header .dp2-bg{position: absolute; top:130px; left:225px; width: 830px; height: 200px; background-color:rgba(255, 255, 2555, 0.7); z-index:99; border-radius: 5px;}
+#header .dp2-bg{position: absolute; top:130px; right: 110px; width: 830px; height: 200px; background-color:rgba(255, 255, 255, 0.7); z-index:99; border-radius: 5px;}
 /* header 종료 */
 
 
@@ -73,11 +73,8 @@ border-radius:10px;border-style: none;font-size:14px;font-weight: bold;}
 #contents{}
 #contents .main01{width:1200px; padding-top: 212px; margin: 0 auto;}
 #contents .main01 h2{text-align: center;}
-#contents .wheretogo{
-    padding-top:110px;
-    display: flex;
-    justify-content:space-between;
-}
+#contents .wheretogo{padding-top:110px;display: flex;justify-content:space-between;}
+
 
 
 /* wheretogo 시작 */
@@ -100,7 +97,7 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 #contents .main02{width:1200px; padding-top: 212px; margin: 0 auto; }
 #contents .main02 h2{margin-top:-34px; text-align: center;position: relative;}
 #contents .map-view{z-index:99; position: relative; height: 800px;background:url('../images/main/map.png')no-repeat center; font-weight:bold; scale: 0.7;}
-#contents .map-bg{background:url('../images/common/main2-background.png')no-repeat; height: 600px; width:1200px;position: absolute; top: 1760px;}
+#contents .map-bg{background:url('../images/common/main02-background.png')no-repeat; height: 600px; width:1200px;position: absolute; top: 1760px;}
 #contents .main02-btn{z-index:33;font-size:24px; font-weight:bold; padding:65px 120px;}
 #contents .main02-btn{color: #fff;}
 #contents .main02-more{z-index: 33; position: absolute; top: 50px; left: 50px;}
@@ -131,7 +128,7 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 
 
 /* main03 시작 */
-#contents .main03{width: 1200px; padding-top: 212px; margin: 0 auto;}
+#contents .main03{width: 1200px; padding-top: 212px; margin: 0 auto; position: relative;}
 #contents .main03 h2{text-align: center; padding-bottom: 150px;}
 #contents .hotplace-bg{padding-top:116px; width:100%; height:525px;background:url('../images/main/hotplace-bg.png')no-repeat center center;}
 #contents .hotplace-lists{width:1000px; margin:0 auto; padding-top:116px; display: flex; justify-content:space-around;}
@@ -139,25 +136,53 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 #contents .hotplace-lists img{transition: transform, 0.5s;}
 #contents .hotplace-lists img:hover{transform: translateY(-30px)}
 #contents .hotplace-bg{margin-top: -650px;}
+#contents .main03-btn{margin-top: 10px; float: right; padding:5px; border-radius:4px; border-style: none;}
+#contents .main03-btn2{padding: 5px;  font-size: 16px; position: absolute; top:250px; right: 100px;} 
+#contents .main03-btn2 img{position:absolute; top:0; margin-left: 10px;}
+#contents .main03-btn2:hover{font-weight:bold;}
 /* main03 종료 */
 
-/* main04 시작 */
-#contents .main04{width: 1200px; padding-top: 212px; margin: 0 auto;}
+/* main04 시작 언택트관광*/
+#contents .main04{width: 1200px; padding-top: 212px; margin: 0 auto; position: relative;}
 #contents .main04 h2{text-align: center; padding-bottom: 90px;}
-#contents .main04-wrap{display:flex; flex: 2;}
-#contents .main04 .main04-left{background: url('../images/main/Untact1.png')no-repeat left; width: 362px; height: 469px;}
-#contents .main04 .main04-right{display: flex; align-items:center;padding-left: 90px;}
-#contents .main04 .main04-right li:nth-child(1){width: 310px; height:281px;
-background: url('../images/main/Untact2.png')no-repeat;}
-#contents .main04 .main04-right li:nth-child(2){width: 310px; height:281px;
-background: url('../images/main/Untact3.png')no-repeat top;}
+
+#contents .main04 .main04-left ul{display: flex; justify-content: center;}
+#contents .main04 .main04-left li{justify-content: space-around; align-self: center; overflow: hidden; height:320px}
+#contents .main04 .main04-left li img{scale: 0.8;}
+#contents .main04 .main04-left li span{
+    transition: transform 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transform: translateY(100px);
+}
+#contents .main04 .main04-left li:hover span{ transform: translateY(0);}
+/* #contents .main04 .Description {position: absolute; left:0; bottom:10px; right:0; height:100px; background-color: rgba(255, 255, 2555, 0.7); transition: transform 0.5s; transform: translateY(10px); padding:10px 30px;}
+#contents .main04 .Description:hover{transform: translateY(0); transition: 0.5s}
+#contents .main04 .Description h3{margin-top:10px;} */
+
+
+#contents .main04-btn2 a{position:absolute; top:250px; right:108px; margin-left: 10px;}
+#contents .main04-btn2:hover{font-weight:bold;}
+
 /* main04종료 */
 
 /* main05 시작 */
 #contents .main05{width: 1200px; padding-top: 212px; margin: 0 auto; position: relative;}
 #contents .main05 h2{text-align: center; padding-bottom: 90px;}
 #contents .main05 .evnet-banner ul{display: flex; justify-content:space-around;}
+#contents .main05 .evnet-banner ul li{transition: transform 0.5s;}
+#contents .main05 .evnet-banner ul li:hover { transform: translateY(-20px)}
 #contents .main05-btn{margin-top: 10px; float: right; padding:5px; border-radius:4px; border-style: none;}
+#contents .main05-btn2{padding: 5px;  font-size: 16px; position: absolute; top:250px; right: 100px;} 
+#contents .main05-btn2 img{position:absolute; top:0; margin-left: 10px;}
+#contents .main05-btn2:hover{font-weight:bold;}
 /* main05 종료 */
 
 /* main06 시작 */
@@ -168,10 +193,11 @@ background: url('../images/main/Untact3.png')no-repeat top;}
 
 /* main07 시작 */
 #contents .main07{width: 1200px; padding-top: 212px; margin: 0 auto;}
-#contents .main07 h2{text-align: center; padding-bottom: 90px;padding-top:212px}
-#contents .main07 .bookmark{width: 800px; margin: 0 auto;}
-#contents .main07 ul{ display: flex; flex-direction: row; align-items: center; justify-content:space-around;padding-bottom: 30px;}
-#contents .main07 span{ display: flex; flex-direction: row; align-items: center; justify-content:space-around;padding-bottom: 30px;}
+#contents .main07 h2{text-align: center; padding-bottom: 90px;padding-top:212px;}
+#contents .main07 .bookmark{width: 1200px; margin: 0 auto;}
+#contents .main07 ul{ display: flex; width: 500px; margin: 0 auto; padding: left 10px; flex-direction: row; align-items: center; padding-bottom: 30px; justify-content: space-around;}
+#contents .main07 ul li{display: flex; justify-content: space-around;}
+#contents .main07 span{ display: flex; flex-direction: row; align-items: center; justify-content:space-around; padding-bottom: 30px;}
 #contents .main07 ul img{width: 70px; height:70px;}
 #contents .main07 ul img:hover{-webkit-animation:jello-horizontal .9s both;animation:jello-horizontal .9s both}
 /* main07 종료 */
@@ -181,10 +207,10 @@ background: url('../images/main/Untact3.png')no-repeat top;}
 #footer {width:1200px; margin:0 auto; position: relative;}
 .footer::after{content: "";display: block;clear: both;}
 #footer #footer-banner{width:1200px; margin-top: 110px; display:flex; justify-content: center; margin:0 auto; padding-bottom: 90px;}
-#footer ul .banner-icon li {transition:all 0.5s; }
+#footer ul .banner-icon li {transition:all 0.5s; align-items: center;}
 #footer ul .banner-icon li:hover { opacity:0.7; }
 #footer ul .banner-icon{width:1200px; justify-content:center;}
-
+.banner-icon .bx-controls-direction a {position: absolute; top: 20px; width: 15px; height: 15px; text-indent: -9999px;}
 .banner-icon .bx-prev {position:absolute; left:100px; background: url('../images/common/minibtn-01.png')no-repeat; height: 30px;}
 .banner-icon .bx-next {right:100px; background: url('../images/common/minibtn02.png')no-repeat;}
 

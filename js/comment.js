@@ -1,21 +1,21 @@
 $(document).ready(function () {
-        // 맨위로가기 버튼
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $("#gotop").fadeIn();
-            } else {
-                $("#gotop").fadeOut();
-            }
-        });
-    
-        $("#gotop").click(function () {
-            $("html, body").animate({
-                scrollTop: 0
-            }, "slow");
-            return false;
-        });
+    // 맨위로가기 버튼
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $("#gotop").fadeIn();
+        } else {
+            $("#gotop").fadeOut();
+        }
+    });
 
-        
+    $("#gotop").click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, "slow");
+        return false;
+    });
+
+
     // 상단메뉴
     $(".dp2,.dp2-bg").hide();
 
