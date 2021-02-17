@@ -15,7 +15,6 @@ $(document).ready(function () {
         return false;
     });
 
-
     // 상단메뉴
     $(".dp2,.dp2-bg").hide();
 
@@ -32,12 +31,14 @@ $(document).ready(function () {
     });
 
     // 관공서슬라이드
-    var slider = $('#footer-banner').bxSlider({
-        auto: true,
-        maxSlides: 5,
-        moveSlides: 1,
-        slideWidth: 240,
-        slideMargin: 0,
-        autoHover: true,
+    $('.mb_slider').owlCarousel({
+        center: true,
+        autoplay: true,
+        autoplaySpeed: 500,
+        items: 5,
+        loop: true,
+        nav: true,
+        margin: 60,
     });
+
 });
