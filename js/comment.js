@@ -32,12 +32,12 @@ $(document).ready(function () {
     });
 
     // 관공서슬라이드
-    $(".banner-icon").bxSlider({
+    var slider = $('#footer-banner').bxSlider({
         auto: true,
-        pager: false,
-        slideWidth: 180,
-        maxSlides: 6,
+        maxSlides: 5,
         moveSlides: 1,
-        speed: 400
+        slideWidth: 240,
+        slideMargin: 0,
+        autoHover: true,
     });
 });
