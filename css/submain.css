@@ -39,11 +39,16 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 #sub01-contents{position: relative; margin: 0 auto;}
 .prepare-trip{background:url('../images/sub/subvisual03.png')no-repeat center 0}
 #sub01-contents li:nth-child(1) a{ color:#FCB837; font-weight:bold;}
-#sub01-contents .trip{width: 1200px; margin:0 auto;}
-.trip{margin: 50px 0;}
+#sub01-contents .trip{width: 1200px; margin:50px auto;}
+#sub01-contents .trip::after{clear: both; display: block; content: "";}
 .trip ul{width: 1000px; margin: 0 auto; position: relative; display:flex; justify-content:space-around;}
 /* sub01 contents 종료 */
-
+.trip ul li{cursor: pointer; position: relative; top: 0;}
+.trip ul li:hover .sub01-desc{opacity: 1;}
+.trip ul li:active .sub01-desc{background-color: rgb(241, 98, 50,0.8) ;}
+.trip ul li .sub01-desc{background-color: rgb(241, 100, 51,0.9) ; z-index: 99; opacity:0; box-sizing:border-box; transition: opacity 0.9s;color: #fff; width:298px;text-align: center; padding:10px 0; position:relative; top:-92px; border-radius:10px;}
+.trip ul li .sub01-desc h3{font-size: 17px;}
+.trip ul li .sub01-desc p{line-height: 1.1;}
 
 
 /* sub02 contents 시작 */
@@ -67,7 +72,6 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 #snb li{float: left; width:calc((80%/2) - 20px); position: relative; left:130px; }
 #snb li a{color: #fff; font-size: 18px; display: block; ; padding: 15px 30px; background-color:#005CA3; text-align: center;}
 #snb li:hover a{color:#FCB837;}
-
 #sub03-contents {margin: 0 auto; width: 1200px;}
 #sub03-contents #snb li:nth-child(2) a{ color:#FCB837; font-weight:bold;}
 #sub03-contents .guide-wrap{width: 1200px; margin: 50px auto;}
