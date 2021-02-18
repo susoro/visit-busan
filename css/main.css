@@ -160,9 +160,10 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 /* main05 시작 */
 #contents .main05{width: 1200px; padding-top: 212px; margin: 0 auto; position: relative;}
 #contents .main05 h2{text-align: center; padding-bottom: 90px;}
-#contents .main05 .evnet-banner ul{display: flex; justify-content:space-around;}
+#contents .main05 .evnet-banner ul{width: 1000px;margin: 0 auto; display: flex; justify-content:space-around;}
 #contents .main05 .evnet-banner ul li{transition: transform 0.5s;}
 #contents .main05 .evnet-banner ul li:hover { transform: translateY(-20px)}
+#contents .main05 .evnet-banner ul img{scale:0.8;}
 #contents .main05-btn{margin-top: 10px; float: right; padding:5px; border-radius:4px; border-style: none;}
 #contents .main05-btn2{padding: 5px;  font-size: 16px; position: absolute; top:250px; right: 100px;} 
 #contents .main05-btn2 img{position:absolute; top:0; margin-left: 10px;}
@@ -176,7 +177,7 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 /* main06 종료 */
 
 /* main07 시작 */
-#contents .main07{width: 1200px; padding-top: 212px; margin: 0 auto;padding-bottom:160px; position: relative;}
+#contents .main07{width: 1200px; padding-top: 212px; margin: 0 auto; margin-bottom:90px; padding-bottom:160px; position: relative;}
 #contents .main07 h2{text-align: center; padding-bottom:50px;padding-top:212px;}
 #contents .main07 .bookmark{width:clac(100%/5); padding-bottom: 50px;padding-left: 324px;}
 #contents .main07 ul li{float: left;text-align: center;}
@@ -189,16 +190,16 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 
 /* footer 시작 */
 #footer {width:1200px; margin:0 auto; position: relative;}
-#footer .footer-banner{overflow: hidden;position: relative;}
-#footer .banner-icon{float: left;display: flex;}
-#footer .banner-icon img{align-items: center; scale: 0.5em;}
-#footer .banner-icon li {transition:all 0.5s;}
-#footer .banner-icon li:hover { opacity:0.7; }
+#footer li {transition:all 0.5s;}
+#footer li:hover { opacity:0.7; }
+#footer a{align-items: center;}
+
 .footer-menu{width: 1100px; margin: 0 auto; margin-bottom: 130px; padding-bottom: 20px;}
 .footer-menu .footer-dp{margin-top: 30px;}
 .footer-menu .footer-dp li a{color: #fff;}
 .footer-menu >.footer-dp>li{float: left; width:13%; text-align: left; }
 .footer-menu .dep-01{font-size: 18px; font-weight: bold;}
+
 .sns-footer{margin: 0 auto;}
 .sns-footer .sns{display: flex; justify-content: end;}
 .sns li{width:40%; padding-left:40px;align-self: center;}

@@ -30,15 +30,6 @@ $(document).ready(function () {
         auto: true
     });
 
-    // 관공서슬라이드
-    $('.mb_slider').owlCarousel({
-        center: true,
-        autoplay: true,
-        autoplaySpeed: 500,
-        items: 5,
-        loop: true,
-        nav: true,
-        margin: 60,
-    });
+
 
 });
