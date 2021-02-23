@@ -123,7 +123,6 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 #contents .map-view .mp14{position:absolute;top:488px;left: 475px;}
 #contents .map-view .mp15{position:absolute;top:540px;left: 554px;}
 #contents .map-view .mp16{position:absolute;top:600px;left: 620px;}
-
 /* main02 종료 */
 
 
@@ -173,7 +172,7 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 /* main06 시작 */
 #contents .main06{width: 1200px; padding-top: 212px; margin: 0 auto; position:relative;}
 #contents .main06 h2{text-align: center; padding-bottom: 90px;}
-#contents .main06 .video-busan{position: absolute; left:318px;}
+#contents .main06 .video-busan{display:flex; justify-content: center;}
 /* main06 종료 */
 
 /* main07 시작 */
