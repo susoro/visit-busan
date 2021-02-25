@@ -70,10 +70,12 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 .theme-trip-wrap{width:1200px; margin: 40px auto 100px auto;}
 .sub02-wrap{width: 1000px; margin: 0 auto; display: flex; align-items:center; }
 .sub02-wrap .box{background: url('../images/sub/trip-bg.png');}
+.sub2-img img{scale: 0.7;}
 .sub2-desc ul li:nth-child(1){font-size: 18px; font-weight: bold;}
 .sub2-desc ul li a:hover{color: #005CA3; transition: 0.5s; font-weight:bold;}
 .sub2-desc ul li:nth-child(2){color: #005CA3;}
 .sub2-desc ul li:nth-child(4){position: relative; left:470px;}
+.sub02-wrap{border-bottom: 2px solid #eee; width: 900px;}
 /* .sub2-img :hover{ opacity:0.5;background:rgba(0,0,0,0.9); width:100%; height:100%; box-sizing:border-box; transition:opacity 1s; border-radius:40%;}
 .sub2-img {opacity: 1;} */
 
@@ -117,9 +119,8 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 
 
 /* 페이지 */
-.pagebox .page{width: 500px; margin: 0 auto;}
+.pagebox .page{width: 500px; margin: 0 auto;text-align: center;}
 .trip .page li { display:inline-block; border:1px solid #e6e6e6; margin:1px; padding:5px 14px; border-radius: 5px; }
-.pagebox .page{ text-align: center;}
 .guide-wrap .page li { display:inline-block; border:1px solid #e6e6e6; margin:1px; padding:5px 14px; border-radius: 5px; }
 .theme-trip-wrap .page li { display:inline-block; border:1px solid #e6e6e6; margin:1px; padding:5px 14px; border-radius: 5px; }
 .page .on{ background-color:#005CA3; color: #fff;}

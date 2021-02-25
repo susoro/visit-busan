@@ -149,9 +149,6 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 #contents .main04-desc li{overflow: hidden;}
 #contents .main04-desc li img{transition: all 0.8s; scale: 0.9;}
 #contents .main04-desc li img:hover{transform: scale(1.1,1.1);}
-
-
-
 #contents .main04-btn2 a{position:absolute; top:250px; right:108px; margin-left: 10px;}
 #contents .main04-btn2:hover{font-weight:bold;}
 /* main04종료 */
