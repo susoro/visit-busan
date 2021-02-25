@@ -74,7 +74,7 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 .sub2-desc ul li:nth-child(1){font-size: 18px; font-weight: bold;}
 .sub2-desc ul li a:hover{color: #005CA3; transition: 0.5s; font-weight:bold;}
 .sub2-desc ul li:nth-child(2){color: #005CA3;}
-.sub2-desc ul li:nth-child(4){position: relative; left:470px; display: flex; align-self: center;}
+.sub2-desc ul li:nth-child(4) a{position: relative; left:470px; display: flex; align-self: center;}
 .sub2-desc img{transform: scale(0.8,0.8);}
 .sub2-img img{transform: scale(0.7,0.7);}
 .sub02-wrap{border-bottom: 2px solid #eee; width: 900px;}
