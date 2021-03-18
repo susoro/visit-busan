@@ -95,11 +95,13 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 
 /* main02 시작 */
 #contents .main02{width:1200px; padding-top: 212px; margin: 0 auto; }
-#contents .main02 h2{margin-top:-34px; text-align: center;position: relative;}
+#contents .main02 h2{margin-top:-30px; text-align: center;position: relative; z-index: 99999;}
 #contents .map-view{z-index:99; position: relative; height: 800px;background:url('../images/main/map.png')no-repeat center; font-weight:bold; transform: scale (0.7);}
-#contents .map-bg{background:url('../images/common/main02-background.png')no-repeat; height: 600px; width:1200px;position: absolute; top: 1760px;}
+#contents .map-bg{background:url('../images/common/main02-background.png')no-repeat; height: 1000px; width:1200px;position: absolute; top: 1600px;}
 #contents .main02-btn{z-index:33;font-size:24px; font-weight:bold; padding:65px 120px;}
 #contents .main02-btn{color: #fff;}
+#contents .map-view{top: 50px;}
+#contents .map-view-wrap{position: relative; top: -120px;}
 #contents .main02-more{z-index: 33; position: absolute; top: 50px; left: 50px;}
 #contents .map-view a{color: #333; font-weight:bold;}
 #contents .map-view a:hover{color: #fff;transition:0.5s}
@@ -159,7 +161,7 @@ background: rgba(0,0,0,0.8); box-sizing:border-box; padding:135px 0; width:283px
 #contents .main05 .evnet-banner ul{width: 1000px;margin: 0 auto; display: flex; justify-content:space-around;}
 #contents .main05 .evnet-banner ul li{transition: transform 0.5s;}
 #contents .main05 .evnet-banner ul li:hover { transform: translateY(-20px)}
-#contents .main05 .evnet-banner ul img{scale:0.8;}
+#contents .main05 .evnet-banner ul img{transform: scale(0.9);}
 #contents .main05-btn{margin-top: 10px; float: right; padding:5px; border-radius:4px; border-style: none;}
 #contents .main05-btn2{padding: 5px;  font-size: 16px; position: absolute; top:250px; right: 100px;} 
 #contents .main05-btn2 img{position:absolute; top:0; margin-left: 10px;}
