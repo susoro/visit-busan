@@ -101,7 +101,7 @@ top: 150px;}
 #contents .main02{width:1200px; padding-top: 112px; margin: 0 auto; }
 #contents .main02 h2{margin-top:-30px; text-align: center;position: relative; z-index: 99999;}
 #contents .map-view{z-index:99; position: relative; height: 800px;background:url('../images/main/map.png')no-repeat center; font-weight:bold; transform: scale (0.7);}
-#contents .map-bg{background:url('../images/common/main02-background.png')no-repeat; height: 1000px; width:1200px;position: absolute; top: 850px;}
+#contents .map-bg{background:url('../images/common/main02-background.png')no-repeat; height: 1000px; width:1200px;position: absolute; top: 890px;}
 #contents .main02-btn{z-index:33;font-size:24px; font-weight:bold; padding:65px 120px;}
 #contents .main02-btn{color: #fff;}
 #contents .map-view{top: 50px;}
@@ -133,13 +133,13 @@ top: 150px;}
 
 
 /* main03 시작 */
-#contents .main03{width: 1200px;margin: 0 auto; position: relative;}
+#contents .main03{width: 1200px;margin: 0 auto; position: relative; margin-top: 150px;}
 #contents .main03 h2{text-align: center; padding-bottom: 130px;}
 #contents .hotplace-lists{ margin:0 auto;display: flex; justify-content:space-around;  top: 150;}
 #contents .hotplace-list li{transition: transform 0.5s;}
 #contents .hotplace-lists img{transition: transform, 0.5s;}
 #contents .hotplace-lists img:hover{transform: translateY(-30px)}
-#contents .main03-btn{margin-top: 10px; float: right; padding:5px; border-radius:4px; border-style: none;}
+#contents .main03-btn{margin-top: 10px; float: right; padding:5px; border-radius:4px; border-style: none; }
 #contents .main03-btn2{padding: 5px;  font-size: 16px; position: absolute; top:40px; right: 100px;} 
 #contents .main03-btn2 img{position:absolute; top:0; margin-left: 10px;}
 #contents .main03-btn2:hover{font-weight:bold;}
