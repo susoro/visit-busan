@@ -30,7 +30,7 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 #header .dp2{padding-top: 25px; height:150px; box-sizing: border-box; transition:background 0.5s;}
 #header .dp2 li{padding: 5px 0;}
 #header .dp2 li a{text-transform:capitalize; font-size: 15px;transition: 0.3s;}
-#header .dp2-bg{position: absolute; top:130px; right: 110px; width: 830px; height: 200px; background-color:rgba(255, 255, 255, 0.7); z-index:99; border-radius: 5px;}
+#header .dp2-bg{position: absolute; top:130px; right: 110px; width: 830px; height: 200px; background-color:rgba(255, 255, 255); z-index:99; border-radius: 5px;}
 /* header 종료 */
 
 
