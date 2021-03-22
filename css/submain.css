@@ -103,7 +103,7 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 .visual-wrap p{padding-left: 10px; color:#fff;}
 #snb03 {width: 1200px; margin: 0 auto; padding-top: 240px;}
 #snb03::after { content: ""; clear: both; display: block;}
-#snb03 li{float: left; width:600px; position: relative;margin: 0 auto;}
+    #snb03 li{float: left; width:600px; position: relative;margin: 0 auto;}
 #snb03 li a{color: #fff; font-size: 18px; display: block; ; padding: 15px 30px; background-color:#005CA3; text-align: center;}
 #snb03 li:hover a{color:#FCB837;}
 #sub03-contents #snb03 .on a{ color:#FCB837; font-weight:bold;}
