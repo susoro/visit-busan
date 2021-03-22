@@ -115,8 +115,33 @@ body {font-family:'나눔스퀘어','Noto Sans KR','Roboto', serif; font-size:16
 .guide-wrap ul li span img{scale: 0.7;}
 .guide-wrap ul li:hover span{background-color:#3c6bf1; transition: 0.5s; color: #fff;}
 .guide-wrap ul li span{background-color: rgb(255, 255, 255) ; z-index: 99; box-sizing:border-box; transition: opacity 0.9s;color: #333; width:220px;text-align: center; padding:12px 2px; position:relative; top:-60px; border-radius:10px; border: 1px solid #333;}
-.guide-wrap.box{background: url(../images/sub/trip-bg.png);}
+/* .guide-wrap.box{background: url(../images/sub/trip-bg.png);} */
 /* sub03 contents 종료 */
+
+/* sub 4 시작 */
+#notice {width: 1200px; margin:150px auto; position: relative;}
+#notice form{position: absolute; right: 10px; top: -50px;}
+#notice .search {width: 300px; float: right;margin-bottom: 20px;}
+#notice .search select {border:1px solid #999;width: 80px;height: 30px;padding: 3px 10px;}
+#notice select{width: 50px; height: 30px;}
+#notice input[type="text"] {border:1px solid #999; width: 150px; height: 30px; padding: 3px 10px;box-sizing: border-box;}
+#notice input[type="submit"]{width: 60px;height: 30px; padding: 3px 10px; box-sizing: border-box; background: #333; color:#fff; cursor: pointer;}
+#notice table  {width: 100%; border-top:1px solid #000;}
+#notice table th {padding: 10px 0 ; border-bottom: 1px solid #999;}
+#notice table td {padding: 10px 0; border-bottom:1px solid #ddd; ;text-align: center;}
+#notice table tr td:nth-child(2) {text-align: left;} 
+#notice table td a:hover {color:#3c6bf1;}
+#notice .paging {text-align: center;margin-top: 50px;}
+#notice .paging span a{display:inline-block ; border: 1px solid #999;padding: 5px 15px; }
+#notice .paging span a.on {background: #3c6bf1;color:#fff;}
+#notice .paging .first a{text-indent:-99999px;background: url('../images/sub/paging_first.png')no-repeat center center;border:0;}
+#notice .paging .prev a{text-indent:-99999px;background: url('../images/sub/paging_prev.png')no-repeat center center;border:0;}
+#notice .paging .next a{text-indent:-99999px;background: url('../images/sub/paging_next.png')no-repeat center center;border:0;}
+#notice .paging .last a{text-indent:-99999px;background: url('../images/sub/paging_last.png')no-repeat center center;border:0;}
+
+
+
+
 
 
 
