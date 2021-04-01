@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "./reset.css"
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Open+Sans&display=swap');
+
 @keyframes pulsate-bck1{0%{transform:scale(1)}50%{transform:scale(.9)}100%{transform:scale(1)}}
 @keyframes pulsate-bck2{0%{transform:scale(1)}50%{transform:scale(.9)}100%{transform:scale(1)}}
 @keyframes pulsate-bck3{0%{transform:scale(1)}50%{transform:scale(.9)}100%{transform:scale(1)}}
